@@ -1,0 +1,1 @@
+for y in list(set(sorted([x for i, x in enumerate(input().split(' ')) if int(x) % 6 == 0 and int(i+1) % 6 == 0],reverse=True))): print(y, end=' ')
